@@ -1,0 +1,42 @@
+html,body{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+#board{
+    width:560px;
+    height:560px;
+    margin:auto;
+    background-image:url("fix.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 150px;
+}
+ #show{
+     text-align: center;
+     color:blue;
+     font-size: 30px;
+     font-style: oblique;
+ }
+.same{
+    width: 80px;
+    height: 80px;
+    float:left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    color: yellow;
+    font-size: 60px;
+}
+
+.winner{
+    color: red;
+}
